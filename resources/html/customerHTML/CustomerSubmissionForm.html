@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission Form</title>
+    <link rel="stylesheet" href="../../css/customer/CustomerSubmissionForm.css">
+</head>
+
+<body>
+    <script type="text/javascript" src="../../scripts/customerScripts/customerScripts.js"></script>
+    <style>
+        body {
+            background-image: url("../../images/background\ image.jpg");
+            background-repeat: repeat;
+        }
+    </style>
+
+
+    <div class="rectangle">
+        <div class="username">
+
+            <form id="details">
+
+                <div class="form-group form-inline" id="firstcolumn">
+                    <label for="clothingname">Clothing Name-</label>
+                    <input type="text" class="form-control" id="clothingname" placeholder="Clothing Name">
+                </div>
+
+                <div class="form-group form-inline">
+                    <label for="style">Style-------------</label>
+                    <select name="style" id="style">
+                        <option value="collaredShirt">Collared Shirt</option>
+                        <option value="tShirt">T-Shirt</option>
+                        <option value="buttonUp">Button Up Shirt</option>
+                        <option value="sweatshirt">Sweatshirt</option>
+                        <option value="sleeveless">Sleeveless Shirt</option>
+                        <option value="shorts">Shorts</option>
+                        <option value="longPants">Casual Pants</option>
+                        <option value="professionalPants">Professional Pants</option>
+                        <option value="skirt">Skirt</option>
+                        <option value="leggings">Leggings</option>
+                        <option value="dress">Dress</option>
+                    </select>
+                </div>
+
+                <div class="form-group form-inline">
+                    <label for="season">Season-----------</label>
+                    <select name="season" id="season">
+                        <option value="spring">Spring</option>
+                        <option value="summer">Summer</option>
+                        <option value="fall">Fall</option>
+                        <option value="winter">Winter</option>
+                        <option value="multi">Multi-Seasonal</option>
+                    </select>
+                </div>
+
+                <div class="form-group form-inline">
+                    <label for="type">Type-------------</label>
+                    <select name="type" id="type">
+                        <option value="shirt">Shirt/Top</option>
+                        <option value="pants">Pants/Bottom</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group form-inline">
+                    <label for="stylistid">Material--------</label>
+                    <select name="material" id="material">
+                        <option value="bulky">Bulky</option>
+                        <option value="thick">Thick</option>
+                        <option value="average">Average</option>
+                        <option value="thin">Thin</option>
+                        <option value="sheer">Sheer</option>
+                    </select>
+                </div>
+
+                <div class="form-group form-inline">
+                    <label for="color">Color------------</label>
+                    <select name="color" id="color">
+                        <option value="black">Black</option>
+                        <option value="white">White</option>
+                        <option value="red">Red</option>
+                        <option value="blue">Blue</option>
+                        <option value="green">Green</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="purple">Purple</option>
+                        <option value="brown">Brown</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <input type="button" class="buttonStyle" value="Submit" onclick="handleClothingOnSubmit()"></button>
+            </form>
+    </div>
+
+
+    <div class="topnav">
+        <a href="">Customer Portal</a>
+        <a href=" #stylistlogin">Sign Out</a>
+
+    </div>
+
+    <div class="footer">
+        <P>Test</P>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+/*Nav Bar styling  */
+.topnav {
+    background-color: rgb(196, 196, 196);
+    overflow: hidden;
+    
+  }
+
+  .topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+
+ 
+
+  .footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(196, 196, 196);
+  color: rgb(196, 196, 196);
+  
+  }

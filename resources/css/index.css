@@ -1,0 +1,105 @@
+.rectangle {
+    height: 300px;
+    width: 500px;
+    background-color: rgb(196, 196, 196);
+    border-radius: 25px;
+   
+    
+    /* vertical center */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .username {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+    color: black;
+  }
+
+
+  .buttonStyle{
+    
+    background-color: rgb(3, 177, 252);
+    border-radius: 25px;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+
+  
+    
+
+  }
+
+  #loginbutton{
+    position: absolute;
+    top: 80%;
+    left: 25%;
+
+
+  }
+
+  #signupbutton{
+    position: absolute;
+    top: 80%;
+    left: 55%;
+
+
+  }
+
+  /*Nav Bar styling  */
+  .topnav {
+    background-color: rgb(196, 196, 196);
+    overflow: hidden;
+    
+  }
+
+  .topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 5px 6px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+
+ 
+
+  .footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(196, 196, 196);
+  color: rgb(196, 196, 196);
+  
+  }
+
+  .title{
+    float: center;
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 50px;
+    
+  }

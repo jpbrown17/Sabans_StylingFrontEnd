@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Signup</title>
+    <link rel="stylesheet" href="../../css/customer/CustomerSignup.css">
+</head>
+
+<body>
+    <script type = "text/javascript" src = "../../scripts/customerScripts/customerScripts.js"></script>
+    <style>
+        body {
+            background-image: url("../../images/background\ image.jpg");
+            background-repeat: repeat;
+        }
+    </style>
+<div>
+    <div class="rectangle">
+        <div class="username">
+            <form id="signup" onsubmit="return false;"method = "Post">
+                <label for="firstName">First Name:</label><br>
+                <input type="text" id="firstName" name="firstName"><br>
+                <label for="lastName">Last Name:</label><br>
+                <input type="text" id="lastName" name="lastName"><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="username">Password:</label><br>
+                <input type="text" id="password" name="password">
+                <input type="button" class="buttonStyle" value = "Sign Up" onclick= "handleCustomerOnSubmit()">
+            </form>
+        </div>
+    </div>
+
+
+    </div>
+
+    <!-- Nav Bar for top -->
+
+    <div class="topnav">
+        <a href="#signup">Customer Login</a>
+        <a href="#stylistlogin">Stylist Login</a>
+
+    </div>
+
+
+    <div class="botbar">
+
+    </div>
+
+</body>
+
+</html>
