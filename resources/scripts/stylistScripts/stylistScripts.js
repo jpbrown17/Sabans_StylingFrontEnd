@@ -17,10 +17,10 @@ function handleClothingOnLoad(){
 function displayClothingTable(json){
     var dataTable = document.getElementById("dataTable");
     var html = "<table class = \"table table-striped table-bordered table-hover\"><th>Customer ID</th><th>Upload ID</th><th>Clothing Name</th><th>Date Submitted</th>"
-    html += "<th>Style</th><th>Season</th><th>Type</th><th>Material</th><th>Color</th>";
+    html += "<th>Style</th><th>Season</th><th>Type</th><th>Material</th>";
     json.forEach(clothing=>{
         html += `<tr><td>${clothing.custId}</td><td>${clothing.clothingId}</td><td>${clothing.clothingName}</td><td>${clothing.dateSubmitted}</td>`
-        html += `<td>${clothing.clothingStyle}</td><td>${clothing.clothingSeason}</td><td>${clothing.clothingType}</td><td>${clothing.clothingMaterial}</td><td>${clothing.clothingColor}</td></tr>`;
+        html += `<td>${clothing.clothingStyle}</td><td>${clothing.clothingSeason}</td><td>${clothing.clothingType}</td><td>${clothing.clothingMaterial}</td></tr>`;
     });
     html += "</table>";
     
